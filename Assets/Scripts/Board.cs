@@ -10,11 +10,10 @@ public class Board : MonoBehaviour
         // Instantiate PinLine
         // GameObject pin = Instantiate(PinLine[0], SpawnOrigin[0].position, Quaternion.identity);
         //ChangeColor(pin);
-        /* for (int i = 0; i < PinLine.Length; i++)
-         {
-             Instantiate(PinLine[i], SpawnOrigin[i].position, Quaternion.identity);
-         }*/
-
+        /*   for (int i = 0; i < PinLine.Length; i++)
+           {
+               Instantiate(PinLine[i], SpawnOrigin[i].position, Quaternion.identity);
+           }*/
         // compareResult();
 
     }

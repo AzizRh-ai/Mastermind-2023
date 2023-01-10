@@ -3,14 +3,10 @@ using UnityEngine;
 public class PickerColor : MonoBehaviour
 {
     [SerializeField] private GameObject[] PinColor;
-    [SerializeField] private bool showPicker;
+    public bool showPicker = false;
     public GameObject pinSelected;
     // Start is called before the first frame update
 
-    private void Start()
-    {
-        showPicker = false;
-    }
     private void OnMouseExit()
     {
         hidePickerPinColor();
